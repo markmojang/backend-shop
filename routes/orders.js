@@ -13,6 +13,7 @@ router.post("/order", async (req, res) => {
   let order = new Order({
     name: req.body.name,
     address: req.body.address,
+    phone: req.body.phone,
     cart: req.body.cart,
     total: req.body.total,
   });

@@ -6,6 +6,9 @@ const productShema = mongoose.Schema({
     address: {
         type: String
     },
+    phone: {
+        type: String
+    },
     cart : {
         type: String
     },
